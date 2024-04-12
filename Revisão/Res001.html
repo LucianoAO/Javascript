@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Resolva o problema a seguir:</h1>
+    <hr>
+    <p>Indique que o nome de certo usuário tem mais de 5 letras e abaixo disto.</p>
+    <p>Crie um alert indicando o numero de letras</p>
+    <p>Seu nome tem: <span></span></p>
+    <script>
+       var nome = window.prompt('Qual é seu nome?')
+       window.alert('seu nome possui ' + nome.length + ' letras')
+
+       var resultado = nome.length > 5 ? 'Seu nome tem mais de 5 letras!' : 'Seu nome tem menos de 5 letras!'
+
+       document.getElementsByTagName('span')[0].innerText = resultado
+    </script>
+</body>
+</html>
