@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascipt</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Soma dos valores</h1>
+    <input type="number" name="somar1" id="somar1"> +
+    <input type="number" name="somar2" id="somar2">
+    <input type="button" value="soma" id="soma" onclick="soma()">
+    <p id="total">Resultado: </p>
+
+    <script>
+        var res1 = window.document.getElementById('somar1')
+        var res2 = window.document.getElementById('somar2')
+        var p = document.getElementById('total')      
+           
+        function soma() {
+            var valor1 = Number(res1.value) 
+            var valor2 = Number(res2.value)
+            var valortotal = valor1 + valor2
+
+        
+        p.innerHTML = `A soma entre ${valor1} e ${valor2} igual a ${valortotal}`
+
+        }
+        
+    </script>
+</body>
+</html>
