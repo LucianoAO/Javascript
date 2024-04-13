@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <label for="nac">Qual seu país?</label>
+    <input type="text" name="nac" id="nac">
+    <input type="button" value="Enviar" onclick="indica()">
+    <p class="resind">Então você é: </p>
+
+    <script>
+        var nac = window.document.querySelector('input#nac')
+            var p = window.document.querySelector('p.resind')
+        
+        function indica() {
+            var txt = String(nac.value)
+
+            if (txt == 'Brasil') {
+                p.innerHTML = 'Então você é: Nativo!'
+            } else {
+                p.innerHTML = 'Então você é: Estrangeiro!'
+            }
+        }
+    </script>
+</body>
+</html>
