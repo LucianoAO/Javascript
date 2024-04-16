@@ -19,7 +19,9 @@
         function indica() {
             var txt = String(nac.value)
 
-            if (txt == 'Brasil') {
+            if (txt == 'Brasil' || txt == 'Brazil') {
+                p.innerHTML = 'Então você é: Nativo!'
+            } else if (txt == 'Brasileiro') {
                 p.innerHTML = 'Então você é: Nativo!'
             } else {
                 p.innerHTML = 'Então você é: Estrangeiro!'
