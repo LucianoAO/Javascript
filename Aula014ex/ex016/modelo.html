@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contar Passos</h1>
+    </header>
+    <section>
+        <div>
+            <label for="inicio">Início:</label>
+            <input type="text" name="inicio" id="inicio" required>
+        </div>
+
+        <div>
+            <label for="fim">Fim:</label>
+            <input type="text" name="fim" id="fim" required>
+        </div>
+        <div>
+            <label for="passo">Passo:</label>
+            <input type="text" name="passo" id="passo">
+        </div>
+        <p><input type="submit" value="Contar" onclick="contar()" required></p>
+        <p class="resp"></p>
+    </section>
+    <footer>&copy; CursoemVideo | Luciano</footer>
+    <script src="script.js"></script>
+</body>
+</html>

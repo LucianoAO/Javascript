@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <form action="cadastro.php">
+            <div>
+                <label for="number">Número: </label>
+                <input type="number" name="number" id="number">
+            </div>
+            <div>
+                <input type="submit" value="Gerar Tabuada" onclick="tabuada">
+            </div>
+            <div>
+                <select name="select" id="select" size="10">
+                    <option value="">Digite um Número</option>
+                </select>
+            </div>
+        </form>
+    </section>
+    <footer>&copy; CursoemVideo | Luciano</footer>
+    <script src="script.js"></script>
+</body>
+</html>
