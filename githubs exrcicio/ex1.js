@@ -4,7 +4,7 @@
 let arryn = [20, 5, 10]
 let somaarry = 0
 
-for(let i = 0; i < arryn.length;i++) {
+for(let i in arryn) {
     somaarry += arryn[i] 
 }
 

@@ -1,7 +1,7 @@
 let numeros = [51, 52]
 let soma = 0
 
-for (let i = 0; i < numeros.length; i++ ) {
+for (let i in numeros) {
     soma += numeros[i]
 }
 

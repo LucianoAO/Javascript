@@ -1,0 +1,35 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(84, 84, 195);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    border-radius: 35px;
+    margin: auto;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+}
+
+input[type="submit"] {
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
