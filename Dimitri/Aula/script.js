@@ -8,4 +8,3 @@ document.body.append(p2)
 console.log('Isso é um alerta no cconsole.log')
 alert('Isto é um alerta')
 console.log(5 + 5)
-
