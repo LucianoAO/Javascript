@@ -56,4 +56,32 @@ console.log(carro.completo())
 
 // -------------------------------------------------- Eventos --------------------------------------------
 
+class Carro {
+    constructor(v1,v2,v3) {
+        this.marca = v1
+        this.modelo = v2
+        this.ano = v3
+    }
+    buzina() {
+       return this.modelo +  ` Buzinou: Biiiiiii` 
+    }
+    luz() {
+        return this.modelo + ` Ligou o Farol!`
+    }
+}
 
+
+const carrao = {
+    marca: "Fiat",
+    modelo: "Uno",
+    ano: 2001
+}
+
+const gol = new Carro("Volkswagen", "Gol", 3200)
+const uno_ford = new Carro("Ford", "Uno", 2030)
+// Objetos Carro
+gol.ano = 2010
+console.log(uno_ford)
+console.log(uno_ford.buzina())
+console.log(gol)
+console.log(gol.luz())
